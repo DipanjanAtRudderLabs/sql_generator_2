@@ -1,0 +1,1 @@
+SELECT schema_name FROM {{Select1.selectedOptionValue}}.information_schema.schemata order by schema_name; 

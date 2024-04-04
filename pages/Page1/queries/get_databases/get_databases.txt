@@ -1,0 +1,1 @@
+SELECT database_name from information_schema.databases order by database_name;

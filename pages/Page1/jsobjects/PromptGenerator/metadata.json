@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "PromptGenerator",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_PromptGenerator",
+  "deleted": false,
+  "gitSyncId": "660a590848918a44bc93ebe9_660a794e48918a44bc93ec18"
+}

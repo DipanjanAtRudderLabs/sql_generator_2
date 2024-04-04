@@ -1,0 +1,1 @@
+select column_name, data_type from {{Select1.selectedOptionValue}}.information_schema.columns where table_schema = '{{Select2.selectedOptionValue}}' and table_name = '{{Select3.selectedOptionValue}}' and column_name not rlike 'CONTEXT_TRAITS_[0-9].*' order by column_name
