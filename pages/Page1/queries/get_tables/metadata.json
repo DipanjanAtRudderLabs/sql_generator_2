@@ -21,7 +21,7 @@
       "body": "select table_name from {{Select1.selectedOptionValue}}.information_schema.tables where table_schema = '{{Select2.selectedOptionValue}}' order by table_name",
       "selfReferencingDataPaths": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,7 +34,7 @@
       "Select1.selectedOptionValue",
       "Select2.selectedOptionValue"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
